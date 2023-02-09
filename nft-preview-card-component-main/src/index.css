@@ -33,6 +33,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-inline: 15px;
 }
 
 main .card {
@@ -43,8 +44,8 @@ main .card {
   padding: 24px;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.411);
 
-  /* opacity: 0; */
-  /* animation: toTop 1s forwards; */
+  opacity: 0;
+  animation: toTop 1s forwards;
 }
 
 @keyframes toTop {
@@ -138,7 +139,7 @@ main .card {
 }
 
 .info-price-days .price h3 {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .info-price-days .days {
@@ -147,6 +148,12 @@ main .card {
   gap: 4px;
 
   color: var(--Soft-blue);
+}
+
+.info-price-days .days img {
+  padding-top: 1px;
+  display: flex;
+  align-items: center;
 }
 
 .info-price-days .days h3 {
@@ -158,10 +165,11 @@ main .card {
   display: flex;
   align-items: center;
   gap: 15px;
+  margin-bottom: 8px;
 }
 
 .card .perfil img {
-  max-width: 35px;
+  max-width: 33px;
   background-color: var(--White);
   padding: 1px;
   border-radius: 50%;
@@ -169,7 +177,7 @@ main .card {
 
 .card .perfil p {
   color: var(--Soft-blue);
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .card .perfil p span {
