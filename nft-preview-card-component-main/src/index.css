@@ -37,14 +37,14 @@ main {
 
 main .card {
   max-width: 350px;
-  border-radius: 10px;
+  border-radius: 20px;
 
   background-color: var(--Very-dark-blue-card);
   padding: 24px;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.411);
 
-  opacity: 0;
-  animation: toTop 1s forwards;
+  /* opacity: 0; */
+  /* animation: toTop 1s forwards; */
 }
 
 @keyframes toTop {
@@ -60,7 +60,7 @@ main .card {
 
 .card .conten-img {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .card .conten-img img {
@@ -102,7 +102,7 @@ main .card {
 
 .card .text-content h2 {
   color: var(--White);
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   transition: color 0.2s;
 }
 
@@ -122,11 +122,11 @@ main .card {
   align-items: center;
   justify-content: space-between;
 
-  margin-top: 19px;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 
-  border-bottom: 2px solid var(--Very-dark-blue-text);
+  border-bottom: 2px solid hsla(215, 32%, 27%, 0.438);
 }
 
 .info-price-days .price {
