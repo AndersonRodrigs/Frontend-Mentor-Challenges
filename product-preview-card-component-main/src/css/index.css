@@ -57,7 +57,7 @@ main {
   width: 100%;
   
   border-radius: 10px 10px 0px 0px;
-  background-image: url(/product-preview-card-component-main/images/image-product-mobile.jpg);
+  background-image: url(/images/image-product-mobile.jpg);
   background-size: cover;
 }
 
@@ -143,7 +143,7 @@ main {
 @media screen and (min-width: 700px) {
   .img-product {
     border-radius: 10px 0px 0px 10px;
-    background-image: url(/product-preview-card-component-main/images/image-product-desktop.jpg);
+    background-image: url(/images/image-product-desktop.jpg);
   }
 
   .card-preview {
